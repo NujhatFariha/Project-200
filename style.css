@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #fff;
+    font-family: sans-serif;
+
+}
+.Logo
+{
+   padding: 0 560px;
+   
+}
+
+.top-nav-bar
+{
+    height: 140px;
+    top: 0;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.access a
+{
+    color: #53517a;
+    position: relative;
+    font-size: 18px;
+    padding: 0 10px;
+    top: 65px;
+    left: 960px;
+}
+
+#home
+{
+    position: relative;
+}
+
+#home :hover
+{
+    color: rgb(148, 52, 156)
+}
+
+#contact
+{
+    position: relative;
+}
+
+#contact :hover
+{
+    color: rgb(71, 97, 182)
+}
+
+#account
+{
+    position: relative;
+}
+
+#account :hover
+{
+    color: rgb(143, 99, 109)
+}
+
+#cart
+{
+    position: relative;
+}
+
+#cart :hover
+{
+    color: rgb(113, 143, 172);
+}
+
+.search-box
+{
+    width:15%;
+    float: left;
+}
+
+.input-search
+{
+    margin-top: 65px;
+    margin-left: 50px;
+    display: inline-flex;
+    border-bottom: 1px solid rgb(20, 19, 19);
+}
+
+
+.input-search input
+{
+    float: left;
+    padding: 1px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.search-icon .fa
+{
+    color: rgb(32, 30, 30);
+}
+
+
+
+#menu
+{
+   
+    margin: 0px;
+    padding-left: 50px;
+    width: 1356px;
+    background: rgb(195, 201, 214);
+    list-style-type: none;
+    min-height: 40px;
+}
+#menu li
+{
+    float: left;
+    
+    position: relative;
+
+}
+
+#menu li a
+{
+    background: rgb(195, 201, 214);
+    padding: 10px 50px;
+    color: rgb(27, 26, 26);
+    text-decoration: none; 
+    display: block;
+    transition: 0.5s all ease-out;
+    
+   
+}
+#menu li a:hover
+{
+    background: rgb(184, 173, 189);
+}
+#menu li ul
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -9999px;
+
+}
+
+#menu li:hover ul
+{
+    left:0px;
+
+}
+
+#menu li ul li
+{
+    float: none;
+    border-left: 1px solid rgb(136, 133, 133);
+    border-right:1px solid rgb(136, 133, 133) ;
+    width: 200px;
+    border-top: 1px;
+    border-bottom: 1px solid rgb(104, 101, 101);
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+
+
+#menu li ul li ul
+{
+    position: absolute;
+    top: -999999px;
+}
+
+
+#menu li ul li:hover ul
+{
+    top:0;
+    left: 200px;
+}
