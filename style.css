@@ -1,180 +1,58 @@
-*{
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
-
-body
-{
-    background-color: #fff;
-    font-family: sans-serif;
-
+header{
+    width: 100%;
 }
-.Logo
-{
-   padding: 0 560px;
-   
+.top-navbar{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.top-nav-bar
-{
-    height: 140px;
-    top: 0;
-    position: sticky;
-    background: #fff;
-    margin-bottom: 0;
+.search-box{
+    display: flex;
+    padding-left: 30px;
 }
-
-.access a
-{
-    color: #53517a;
-    position: relative;
-    font-size: 18px;
-    padding: 0 10px;
-    top: 65px;
-    left: 960px;
-}
-
-#home
-{
-    position: relative;
-}
-
-#home :hover
-{
-    color: rgb(148, 52, 156)
-}
-
-#contact
-{
-    position: relative;
-}
-
-#contact :hover
-{
-    color: rgb(71, 97, 182)
-}
-
-#account
-{
-    position: relative;
-}
-
-#account :hover
-{
-    color: rgb(143, 99, 109)
-}
-
-#cart
-{
-    position: relative;
-}
-
-#cart :hover
-{
-    color: rgb(113, 143, 172);
-}
-
-.search-box
-{
-    width:15%;
-    float: left;
-}
-
-.input-search
-{
-    margin-top: 65px;
-    margin-left: 50px;
-    display: inline-flex;
+.input-search {
     border-bottom: 1px solid rgb(20, 19, 19);
 }
-
-
-.input-search input
-{
-    float: left;
-    padding: 1px;
-    box-shadow: none;
+.input-search input{
     outline: none;
-    border: 0;
     background: transparent;
+    border: none;
 }
-.search-icon .fa
-{
-    color: rgb(32, 30, 30);
+.logo{
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(58, 105, 134);
+}
+.specific-color{
+    color: rgba(0, 0, 0, 0.747);
+}
+.access{
+    display: flex;
+    padding-right: 30px;
 }
 
-
-
-#menu
-{
-   
-    margin: 0px;
-    padding-left: 50px;
-    width: 1356px;
-    background: rgb(195, 201, 214);
-    list-style-type: none;
-    min-height: 40px;
+.access a{
+    font-size: 23px;
+    color: rgba(29, 1, 29, 0.753);
+    padding-left: 20px;
 }
-#menu li
-{
-    float: left;
+.slide-font{
+    font-family: 'Rubik', sans-serif;
+}
     
-    position: relative;
-
-}
-
-#menu li a
-{
-    background: rgb(195, 201, 214);
-    padding: 10px 50px;
-    color: rgb(27, 26, 26);
-    text-decoration: none; 
-    display: block;
-    transition: 0.5s all ease-out;
-    
-   
-}
-#menu li a:hover
-{
-    background: rgb(184, 173, 189);
-}
-#menu li ul
-{
-    list-style-type: none;
-    padding: 0;
-    position: absolute;
-    left: -9999px;
-
-}
-
-#menu li:hover ul
-{
-    left:0px;
-
-}
-
-#menu li ul li
-{
-    float: none;
-    border-left: 1px solid rgb(136, 133, 133);
-    border-right:1px solid rgb(136, 133, 133) ;
-    width: 200px;
-    border-top: 1px;
-    border-bottom: 1px solid rgb(104, 101, 101);
-    position: relative;
-    transition: 0.5s all ease-in-out;
-}
-
-
-#menu li ul li ul
-{
-    position: absolute;
-    top: -999999px;
-}
-
-
-#menu li ul li:hover ul
-{
-    top:0;
-    left: 200px;
-}
