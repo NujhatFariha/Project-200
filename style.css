@@ -12,14 +12,19 @@ body{
 }
 header{
     width: 100%;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #F4F4F4;
 }
 .top-navbar{
     width: 100%;
-    background-color: #FFFFFF;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 .search-box{
     display: flex;
@@ -55,15 +60,20 @@ header{
 .slide-font{
     font-family: 'Rubik', sans-serif;
 }
+.card-radius{
+    border-radius: 30px;
+}
 .buy-button{
-    background-color: rgb(126, 40, 114);
+    background-color: rgba(126, 40, 114, 0.877);
     border: none;
-    height: 35px;
-    width: 90px;
+    width: 120px;
+    padding: 8px 10px;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20;
-    border-radius: 40px;
-    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.fa-arrow-right{
+    padding-left: 5px;
 }
     
