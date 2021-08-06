@@ -56,6 +56,19 @@ header{
     background-color: rgb(104, 112, 121);
     border-radius: 5px;
 }
+.fc-button-highlight:hover{
+    background-image: linear-gradient( to right, rgba(77, 10, 47, 0.849), rgb(138, 71, 145));
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 100px;
+}
+.img-highlight:hover{
+    border-radius: 50%;
+}
+.fc-title-highlight:hover{
+    font-size: 28px;
+    font-weight: bold;
+}
 /* Catagories */
 .catagories{
     position: relative;
