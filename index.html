@@ -18,51 +18,55 @@
 <body>
     <!-- header start -->
     <header>
-      <div class="container-fluid d-lg-flex text-sm-center bg-light py-3">
-        <div class= "search-box">
-          <div class= "input-search">
-              <input type="text" placeholder="Search"> 
-               <i class="fas fa-search"></i>
-          </div>
-        </div>
-        <span class="logo mx-auto">Trendy <span class="specific-color">Closet</span></span> 
-        <ul class="">
-          <div class="access">
-            <a href="#" id="account"><i class="bi bi-person-circle px-2"></i></a>
-            <a href="#" id="contact"><i class="bi bi-telephone px-2"></i></a>
-            <a href="#" id="cart"><i class="bi bi-cart px-2"></i></a>
-            <a href="#" id="sign-in"><i class="bi bi-box-arrow-in-right px-2"></i></a>
-        </div> 
-        </ul>
-    </div>
-      <!-- navbar -->
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#catagories">Catagories</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#featured-collection">Featured Collection</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sale</a>
-                </li>
-              </ul>
+      <section>
+        <!-- top-navbar -->
+        <div class="container-fluid d-lg-flex text-sm-center bg-light">
+          <div class= "search-box">
+            <div class= "input-search">
+                <input type="text" placeholder="Search"> 
+                 <i class="fas fa-search"></i>
             </div>
           </div>
-        </nav>
-      </div>
-
+          <span class="logo mx-auto">Trendy <span class="specific-color">Closet</span></span> 
+          <ul class="">
+            <div class="access">
+              <a href="#" id="account"><i class="bi bi-person-circle px-2"></i></a>
+              <a href="#" id="contact"><i class="bi bi-telephone px-2"></i></a>
+              <a href="#" id="cart"><i class="bi bi-cart px-2"></i></a>
+              <a href="#" id="sign-in"><i class="bi bi-box-arrow-in-right px-2"></i></a>
+            </div> 
+          </ul>
+        </div>
+        <!-- navbar -->
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5">
+                  <li class="nav-item px-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#catagories">Catagories</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#featured-collection">Featured Collection</a>
+                  </li>
+               
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+  
+      </section>
      
       <!-- Slider Image -->
       <section class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide w-100 mx-auto" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row d-flex align-items-center" style="background-color: rgb(134, 46, 58);"> 
@@ -72,7 +76,7 @@
                   <button class="slider-button">View Collection</button>
                 </div>
                   <div class="col-lg-5 mx-auto">
-                    <img src="images/banner-images/women-pic.png" alt="" style=" width: 70%;  height: 600px;">
+                    <img src="images/banner-images/women-pic.png" alt="" style=" width: 70%;  height: 500px;">
                   </div>
               </div>
             </div>
@@ -84,13 +88,12 @@
                         <button class="slider-button">View Collection</button>
                       </div>
                       <div class="col-lg-6 mx-auto">
-                        <img src="images/banner-images/men-pic.png" alt="" style="width: 80%; height: 600px;">
+                        <img src="images/banner-images/men-pic.png" alt="" class="img-fluid w-75" style=" height: 500px;">
                       </div>
                     </div>
                   </div>
                   </div>
               </div> 
-  
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -106,9 +109,8 @@
 
     <main>
         <!-- Catagories -->
-        <section class="container">
-
-              <div class="d-lg-flex d-md-flex justify-content-around mt-5" id="catagories">
+        <section class="container" id="catagories">
+              <div class="d-lg-flex d-md-flex justify-content-around mt-5">
               <div class="catagories catagories-style mens-fashion m-2">
                <div class="d-flex justify-content-center px-4 ">
                 <img src="images/catagories/men.png" alt="Men" class="img-fluid w-100 mx-auto px-3" style="height:300px;">
@@ -674,6 +676,7 @@
               </div>
             </div>
       </div>
+      <hr>
       </section>
 
        <!-- Our Services -->
@@ -710,7 +713,7 @@
       </section>
 
         <!-- Subscribe -->
-        <section class="container-fluid subscribe-style p-3">
+        <section class="container-fluid subscribe-style p-3" id="subscribe">
           <div class="text-center">
               <h1 class="fw-bolder mt-2">GET <span class="specific-color">20% OFF</span> ON YOUR FIRST ORDER!</h1><br>
           <P class="fs-4 mb-5">Get your discount code by subscibing to our emails.</P>
@@ -729,7 +732,7 @@
                     <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                   </div>
-                  <button type="submit" class="btn btn-primary w-100">Submit</button>
+                  <button type="submit" class="btn btn-secondary w-100">Submit</button>
               </form>
           </div>
             <hr>
@@ -750,7 +753,7 @@
     </main>
 
      <!-- footer -->
-     <footer class="text-center fs-4 p-5 bg-dark text-light">© Trendy<span class=""> Closet</span>. All rights reserved</footer>
+     <footer class="text-center fs-4 p-5 bg-dark text-light">© <span class="fw-bold"><span style="color: rgb(10, 91, 116);">Trendy</span><span style="color: #aaaaaa;"> Closet</span></span> . All rights reserved</footer>
    
 
     <!-- JavaScript Bundle with Popper -->

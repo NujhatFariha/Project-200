@@ -9,7 +9,7 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100% !important;
     background-color: #F4F4F4 !important;
 }
 header{
@@ -43,7 +43,7 @@ header{
     border: none;
 }
 .specific-color{
-    color: rgba(0, 0, 0, 0.747);
+    color: rgba(0, 0, 0, 0.541);
 }
 .access{
     margin-top: 5px;
